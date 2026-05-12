@@ -88,6 +88,7 @@ cp waybar/config.jsonc waybar/style.css ~/.config/waybar/
 cp rofi/config.rasi ~/.config/rofi/
 cp rofi/wallpaper-picker.sh ~/.config/rofi/
 cp mako/config ~/.config/mako/
+cp nwg-bar/ ~/.config/nwg-bar/
 cp foot/foot.ini ~/.config/foot/
 cp scripts/screenshot.sh ~/.local/bin/
 chmod +x ~/.local/bin/screenshot.sh
