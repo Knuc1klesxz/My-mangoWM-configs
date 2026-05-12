@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Sair",
+    "exec": "pkill mango",
+    "icon": "/home/joaogabriel/.config/nwg-bar/icons/system-log-out.svg"
+  },
+  {
+    "label": "Reiniciar",
+    "exec": "doas reboot",
+    "icon": "/home/joaogabriel/.config/nwg-bar/icons/system-reboot.svg"
+  },
+  {
+    "label": "Desligar",
+    "exec": "doas poweroff",
+    "icon": "/home/joaogabriel/.config/nwg-bar/icons/system-shutdown.svg"
+  },
+  {
+    "label": "Suspender",
+    "exec": "doas ZZZ",
+    "icon": "/home/joaogabriel/.config/nwg-bar/icons/system-suspend.svg"
+  }
+]
