@@ -1,12 +1,13 @@
+<img width="1366" height="768" alt="screenshot_2026-05-12_14-05-1778605433" src="https://github.com/user-attachments/assets/537c5db3-fb99-4861-8972-4d4d6880a236" />
+<img width="1366" height="768" alt="screenshot_2026-05-12_14-05-1778605449" src="https://github.com/user-attachments/assets/f744d1dc-a823-4778-b6f5-f5101ce5bb65" />
 <div align="center">
 
 <h1>🥭 My MangoWM Configs</h1>
 
-# Video Demonstration
-<video src="mangoWM.mp4" width="100%" controls autoplay muted loop>
-  Your browser does not support the video tag.
-</video>
-</div>
+<img width="1366" height="768" alt="screenshot_2026-05-12_14-05-1778605433" src="https://github.com/user-attachments/assets/537c5db3-fb99-4861-8972-4d4d6880a236" />
+<img width="1366" height="768" alt="screenshot_2026-05-12_14-05-1778605449" src="https://github.com/user-attachments/assets/f744d1dc-a823-4778-b6f5-f5101ce5bb65" />
+<div align="center">
+
 
 ---
 <p>Personal dotfiles for MangoWM on Void Linux</p>
