@@ -2,7 +2,7 @@
 
 <h1>🥭 My MangoWM Configs</h1>
 
-<!-- Video Demonstration -->
+# Video Demonstration
 <video src="mangoWM.mp4" width="100%" controls autoplay muted loop>
   Your browser does not support the video tag.
 </video>
