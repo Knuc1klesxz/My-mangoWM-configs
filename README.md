@@ -2,11 +2,8 @@
 
 <h1>🥭 My MangoWM Configs</h1>
 
-# Video Demonstration
-<video src="mangoWM.mp4" width="100%" controls autoplay muted loop>
-  Your browser does not support the video tag.
-</video>
-</div>
+<img width="1366" height="768" alt="screenshot_2026-05-12_14-05-1778605433" src="https://github.com/user-attachments/assets/a20b237d-03a8-4944-92c8-fc9499cc4865" />
+<img width="1366" height="768" alt="screenshot_2026-05-12_14-05-1778605449" src="https://github.com/user-attachments/assets/6367c5b9-ed76-425f-9403-8a918cf09f59" />
 
 ---
 <p>Personal dotfiles for MangoWM on Void Linux</p>
@@ -28,6 +25,7 @@
 | `waybar/` | Status bar (config + CSS) |
 | `rofi/` | App launcher and wallpaper picker |
 | `mako/` | Notifications |
+| `nwg-bar`| Powermenu |
 | `foot/` | Terminal |
 | `scripts/` | Helper scripts (screenshot, etc.) |
 
@@ -37,12 +35,13 @@
 
 | Component | Program |
 |-----------|---------|
-| **Compositor** | [MangoWM](https://github.com/dqrk0jeste/mango) |
+| **Compositor** | [MangoWM](https://github.com/mangowm/mango) |
 | **OS** | [Void Linux](https://voidlinux.org) |
 | **Display Server** | Wayland |
 | **Bar** | Waybar |
 | **Terminal** | Foot |
 | **Launcher** | Rofi |
+| **Powermenu**| Nwg-bar |
 | **Notifications** | Mako |
 | **Editor** | Micro |
 | **Privilege escalation** | doas |
