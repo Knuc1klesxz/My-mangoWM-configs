@@ -1,0 +1,35 @@
+max-history=20
+sort=-time
+layer=top
+anchor=top-right
+
+width=300
+height=300
+margin=10,40
+padding=10
+font=CaskaydiaCove Nerd Font 10
+border-size=1
+border-radius=0
+
+background-color=#242424
+text-color=#FFFFFF
+border-color=#FFFFFF
+progress-color=over #FFFFFF
+
+icon-path=/usr/share/icons/hicolor
+max-icon-size=64
+default-timeout=10000
+format=<b>%s</b>\n%b
+
+[urgency=low]
+background-color=#1A1A1A
+default-timeout=5000
+
+[urgency=normal]
+background-color=#242424
+default-timeout=10000
+
+[urgency=critical]
+background-color=#242424
+border-color=#FF5555
+default-timeout=0

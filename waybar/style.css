@@ -1,0 +1,99 @@
+/* ===========================================================
+    WAYBAR STYLE - ULTRA CLEAN & TRANSPARENT
+   =========================================================== */
+
+* {
+  font-family: "CaskaydiaCove Nerd Font Mono";
+  font-size: 14px;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Barra Principal - 100% Transparente ou com um leve "smoke" */
+#waybar {
+  background: rgba(0, 0, 0, 0.5); /* Fundo sutil para legibilidade */
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+/* Espaçamento dos módulos */
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#custom-power {
+  padding: 0 10px;
+}
+
+/* -------------------------------------------------------
+    TAGS / WORKSPACES - LOGICA DE OCULTAR VAZIAS
+   ------------------------------------------------------- */
+
+#tags {
+  padding-left: 5px;
+}
+
+#tags button {
+  padding: 0 10px;
+  background-color: transparent;
+  color: #666666; /* Cor das tags inativas (cinza escuro) */
+  transition: all 0.2s ease;
+}
+
+/* Esconde as tags que não estão em uso (Sua lógica) */
+#tags button:not(.occupied):not(.focused) {
+  font-size: 0;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  color: transparent;
+}
+
+/* Workspace Ocupada (tem janela, mas você não está nela) */
+#tags button.occupied {
+  color: #aaaaaa; /* Cinza médio */
+}
+
+/* WORKSPACE ATIVA - O ÚNICO DESTAQUE */
+#tags button.focused {
+  color: #ffffff; /* Branco puro */
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo leve para destacar */
+  border-radius: 4px;
+}
+
+#tags button.urgent {
+  color: #ff5555;
+  animation: blink 1s infinite;
+}
+
+/* -------------------------------------------------------
+    EXTRAS & STATUS
+   ------------------------------------------------------- */
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+#battery.charging {
+  color: #50fa7b; /* Verde discreto */
+}
+
+#battery.warning:not(.charging) {
+  color: #ffb86c; /* Laranja */
+}
+
+#custom-power {
+  color: #ff5555;
+  padding-right: 15px;
+}
+
+#tray {
+  padding: 0 10px;
+}
