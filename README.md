@@ -96,6 +96,27 @@ chmod +x ~/.config/rofi/wallpaper-picker.sh
 ```
 
 ---
+## 🖼️ How to use the Wallpaper Icons Generator
+
+The `scripts/generate-wallpaper-icons.sh` script generates thumbnail icons from your wallpapers so Rofi can display them as a visual wallpaper picker.
+
+**Run it pointing to your wallpapers folder:**
+
+```sh
+./scripts/generate-wallpaper-icons.sh <path-to-wallpapers>
+```
+
+**Example:**
+
+```sh
+./scripts/generate-wallpaper-icons.sh ~/Pictures/wallpapers
+```
+
+> Re-run the script whenever you add new wallpapers to keep the icons in sync.
+
+Once generated, open the wallpaper picker with `SUPER + W`.
+
+---
 
 ## 📝 Notes
 
