@@ -78,17 +78,52 @@ Animations use **cubic-bezier** curves with an overshoot style (`0.22, 1.3, 0.36
 
 ## Dependencies
 
-| Distro | Command |
-|--------|---------|
-| Arch-based | `sudo pacman -S foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl imagemagick python-pywal libnotify swaync` |
-| Debian-based | `sudo apt install foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl imagemagick libnotify-bin` |
-| Fedora | `sudo dnf install foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl ImageMagick libnotify` |
-| openSUSE | `sudo zypper install foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl ImageMagick libnotify-tools` |
-| Void Linux | `sudo xbps-install -S foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl ImageMagick python3-pywal libnotify` |
+<details>
+<summary>Arch-based</summary>
 
-> **Note:** `nwg-bar` and `swww` are not available in most official repositories. Install them manually:
-> - [nwg-bar](https://github.com/nwg-piotr/nwg-bar)
-> - [swww](https://github.com/LGFae/swww)
+```bash
+sudo pacman -S foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl imagemagick python-pywal libnotify swaync
+```
+
+</details>
+
+<details>
+<summary>Debian-based</summary>
+
+```bash
+sudo apt install foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl imagemagick libnotify-bin
+```
+
+</details>
+
+<details>
+<summary>Fedora</summary>
+
+```bash
+sudo dnf install foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl ImageMagick libnotify
+```
+
+</details>
+
+<details>
+<summary>openSUSE</summary>
+
+```bash
+sudo zypper install foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl ImageMagick libnotify-tools
+```
+
+</details>
+
+<details>
+<summary>Void Linux</summary>
+
+```bash
+sudo xbps-install -S foot mako waybar rofi swaybg nemo grim slurp wl-clipboard pavucontrol playerctl ImageMagick python3-pywal libnotify
+```
+
+</details>
+
+> **Note:** `nwg-bar` is not available in most official repositories. Install it manually: [nwg-bar](https://github.com/nwg-piotr/nwg-bar)
 
 ---
 
